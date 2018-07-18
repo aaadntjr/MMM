@@ -171,6 +171,7 @@ $(document).ready(function(){
         $(".mo_slide_btn").css({"left":slide_btn+"px"});
         $(".section02").css({"height":slide_height+"px"});
         
+	    return false;
         //스크롤
 //        new scrollhide();
     });
