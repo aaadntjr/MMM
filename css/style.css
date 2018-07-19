@@ -307,6 +307,8 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    left:50%;
+    transform: translateX(-560px);
 }
 
 .slide_count a {
@@ -1159,6 +1161,7 @@ footer {
     /*슬라이드 시작*/
     .slide_count {
         bottom: calc(100vw*(100/1280));
+        transform: translateX(-43vw);
     }
     .pc_slide_btn {
         padding: 0px 10px;
@@ -1873,6 +1876,7 @@ footer {
     /*슬라이드 시작*/
     .slide_count {
         bottom: calc(100vw*(70/768));
+        transform: translateX(-46vw);
     }
 
     .slide_count a {
@@ -2208,6 +2212,7 @@ footer {
     /*슬라이드 시작!*/
     .slide_count {
         bottom: calc(100vw*(50/576));
+        transform: translateX(-45vw);
     }
 
 
@@ -2465,6 +2470,7 @@ footer {
     /*슬라이드 시작!*/
     .slide_count {
         bottom: calc(100vw*(40/320));
+        transform: translateX(-43vw);
     }
     .mo_slide_btn {
         bottom: calc(100vw*(40/320));
