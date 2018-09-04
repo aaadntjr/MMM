@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).on('load',function(){
     
     //스무스한 스크롤
 //    $("html").easeScroll();    
